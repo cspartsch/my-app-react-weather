@@ -11,30 +11,32 @@ export default function Weather() {
               type="search"
               placeholder="Type a city..."
               className="form-control"
+              autoFocus="on"
             />
           </div>
           <div className="col-3">
-            <button className="btn btn-primary" value="Search">
+            <button className="btn btn-primary w-100" value="Search">
               Search
             </button>
           </div>
         </div>
       </form>
       <h1>Seattle</h1>
-      <ul>
+      <ul className="date">
         <li>Tuesday, August 16, 2022</li>
         <li>Clear</li>
       </ul>
       <div className="row">
-        <div clasName="col-6">
+        <div className="col-6">
           <img
             src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
             alt="Clear"
           />
-          68°F
+          <span className="temp">68</span>
+          <span className="unit">°F</span>
         </div>
         <div className="col-6">
-          <ul>
+          <ul className="weatherDetails">
             <li>Precipitation: 2%</li>
             <li>Humidity: 58%</li>
             <li>Wind: 7 mph</li>

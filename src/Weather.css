@@ -1,4 +1,26 @@
 .Weather {
   border: 1px solid #dadde1;
   border-radius: 4px;
+  padding: 15px;
+  max-width: 600px;
+}
+
+.Weather form {
+    margin-bottom: 10px;
+}
+.Weather h1{
+    color:#3F4E4F;
+}
+
+.Weather li{
+    list-style: none;
+   
+}
+
+.date {
+    color:#3F4E4F;
+    padding:0;
+}
+.weatherDetails{
+    color:#7F8487;
 }
