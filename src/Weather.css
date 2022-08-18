@@ -6,21 +6,36 @@
 }
 
 .Weather form {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
-.Weather h1{
-    color:#3F4E4F;
+.Weather h1 {
+  color: #3f4e4f;
 }
 
-.Weather li{
-    list-style: none;
-   
+.Weather li {
+  list-style: none;
 }
 
 .date {
-    color:#3F4E4F;
-    padding:0;
+  color: #3f4e4f;
+  padding: 0;
 }
-.weatherDetails{
-    color:#7F8487;
+.weatherDetails {
+  color: #7f8487;
+}
+
+.Weather .temp {
+  font-size: 36px;
+  max-height: 64px;
+}
+
+.Weather .unit {
+  font-size: 18px;
+  max-height: 64px;
+  position:relative;
+  top:-12px;
+}
+
+.Weather .description{
+    text-transform: capitalize;
 }
