@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Weather.css";
 import axios from "axios";
+import WeatherInfo from "./WeatherInfo";
 import FormattedDate from "./FormattedDate";
 
 export default function Weather(props) {
@@ -18,7 +19,8 @@ export default function Weather(props) {
       description: response.data.weather[0].description,
       iconUrl: "https://ssl.gstatic.com/onebox/weather/64/sunny.png",
       date: new Date(response.data.dt * 1000),
-  });}
+    });
+  }
 
   if (weatherData.ready) {
     return (
@@ -40,26 +42,7 @@ export default function Weather(props) {
             </div>
           </div>
         </form>
-        <h1>{weatherData.city}</h1>
-        <ul className="date">
-          <li>
-            <FormattedDate date={weatherData.date}/>
-          </li>
-          <li className="description">{weatherData.description}</li>
-        </ul>
-        <div className="row">
-          <div className="col-6">
-            <img src={weatherData.iconUrl} alt={weatherData.description} />
-            <span className="temp">{Math.round(weatherData.temperature)}</span>
-            <span className="unit">°F</span>
-          </div>
-          <div className="col-6">
-            <ul className="weatherDetails">
-              <li>Humidity: {weatherData.humidity}%</li>
-              <li>Wind: {weatherData.wind} mph</li>
-            </ul>
-          </div>
-        </div>
+        <WeatherInfo data={weatherData} />
       </div>
     );
   } else {
