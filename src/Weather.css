@@ -39,3 +39,12 @@
 .Weather .description{
     text-transform: capitalize;
 }
+
+.Weather canvas{
+  display:-webkit-box;
+}
+
+.Weather a {
+  color:red;
+  text-decoration: none;
+}
