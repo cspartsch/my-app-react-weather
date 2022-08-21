@@ -3,6 +3,9 @@
   max-width: 600px;
 }
 
+h1{
+  text-align: center;
+}
 .footer {
   font-size: 10px;
   text-align: center;
