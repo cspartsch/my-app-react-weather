@@ -10,7 +10,9 @@
   margin-bottom: 10px;
 }
 .Weather h2 {
-  color: #3f4e4f;
+  color: #C62A88;
+  font-size: 32px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .Weather li {

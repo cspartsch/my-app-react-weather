@@ -1,12 +1,12 @@
 .WeatherInfo .tempRange {
-  color: blue;
+  color: #03c4a1;
   text-align: left;
-  padding-left: 30px;
+  padding-left: 40px;
 }
 
 .WeatherInfo .dateTime {
-  color: green;
+  color: #03c4a1;
   text-align: right;
-  padding-right: 30px;
+  padding-right: 40px;
   margin-bottom: 30px;
 }
