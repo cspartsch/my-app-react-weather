@@ -14,7 +14,7 @@ export default function Weather(props) {
       temperature: response.data.main.temp,
       city: response.data.name,
       humidity: response.data.main.humidity,
-      wind: response.data.wind.speed,
+      wind: Math.round(response.data.wind.speed),
       maxTemp: Math.round(response.data.main.temp_max),
       minTemp: Math.round(response.data.main.temp_min),
       description: response.data.weather[0].description,

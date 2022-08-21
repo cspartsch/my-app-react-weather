@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <div className="container">
         <h1>Weather Search</h1>
-        <Weather defaultCity="New York" />
+        <Weather defaultCity="Seattle" />
         <footer className="footer">
           This project was coded by Carolyn Partsch and is open-sourced on{" "}
           <a

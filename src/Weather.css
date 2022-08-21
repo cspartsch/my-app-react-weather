@@ -9,11 +9,6 @@
 .Weather form {
   margin-bottom: 10px;
 }
-.Weather h2 {
-  color: #C62A88;
-  font-size: 32px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
 
 .Weather li {
   list-style: none;
@@ -25,11 +20,6 @@
 }
 .weatherDetails {
   color: #7f8487;
-}
-
-.Weather .temp {
-  font-size: 36px;
-  max-height: 64px;
 }
 
 .Weather .unit {
@@ -48,6 +38,6 @@
 }
 
 .Weather a {
-  color:red;
+  color: #73777B;
   text-decoration: none;
 }
