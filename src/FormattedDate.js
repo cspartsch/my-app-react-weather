@@ -39,7 +39,7 @@ export default function FormattedDate(props) {
     hours = hours;
   } else if (hours > 12) {
     hours = hours - 12;
-  } else if (hours == 0) {
+  } else if (hours === 0) {
     hours = "12";
   }
   let minutes = props.date.getMinutes();
