@@ -29,19 +29,17 @@ export default function FormattedDate(props) {
   ];
   let month = months[props.date.getMonth()];
   let hours = props.date.getHours();
-  let amOrPm = "";
-  if (hours >= 12) {
+  let amOrPm = "AM";
+  if (hours > 12) {
     amOrPm = "PM";
-  } else {
-    amOrPm = "AM";
   }
-  if (hours > 0 && hours <= 12) {
-    hours = hours;
-  } else if (hours > 12) {
-    hours = hours - 12;
-  } else if (hours === 0) {
-    hours = "12";
+  if (hours > 12) {
+    hours = hours % 12;
   }
+  if (hours === 0) {
+    hours = 1;
+  }
+
   let minutes = props.date.getMinutes();
   if (minutes < 10) {
     minutes = `0${minutes}`;
