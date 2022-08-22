@@ -4,6 +4,8 @@
   padding: 15px;
   max-width: 600px;
   box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+  background: radial-gradient(circle at 10% 20%, rgb(239, 246, 249) 0%, rgb(206, 239, 253) 90%);
+
 }
 
 .Weather form {
