@@ -1,5 +1,6 @@
 import "./App.css";
 import Weather from "./Weather";
+import "@fontsource/ubuntu";
 
 function App() {
   return (
