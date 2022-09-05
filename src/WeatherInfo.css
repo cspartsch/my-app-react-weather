@@ -2,7 +2,7 @@
   color: #03c4a1;
   text-align: left;
   padding-left: 40px;
-  margin-top: 20px
+  margin-top: 20px;
 }
 
 .WeatherInfo .dateTime {
@@ -13,25 +13,25 @@
   margin-bottom: 15px;
 }
 
-.WeatherInfo .cityNameDescription{
-    text-align: center;
-    margin-bottom: 0;
+.WeatherInfo .cityNameDescription {
+  text-align: center;
+  margin-bottom: 0;
 }
 
-.WeatherInfo h2{
-    color:#C62A88;
-    font-size: 36px;
-    margin: 0;
+.WeatherInfo h2 {
+  color: #c62a88;
+  font-size: 36px;
+  margin: 0;
 }
 
-.WeatherInfo .description{
-    color:#150485;
-    font-size: 20px;
+.WeatherInfo .description {
+  color: #150485;
+  font-size: 20px;
 }
 
 .WeatherInfo .dayDetails {
-    text-align: center;
-    margin:0 auto;
-    color:#03c4a1;
-    margin-bottom: 25px;
+  text-align: center;
+  margin: 0 auto;
+  color: #03c4a1;
+  margin-bottom: 5px;
 }
